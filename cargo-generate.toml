@@ -3,8 +3,6 @@ name = "axum-web-template"
 description = "An Axum web framework template"
 authors = ["Zenith Su <hello.hackign.icu@gmail.com"]
 
-rename = { "Cargo.toml.template" = "Cargo.toml" }
-
 [placeholders]
 bind_ip = { type = "string", prompt = "Enter the bind IP address (default: 127.0.0.1)", default= "127.0.0.1"}
 bind_port = { type = "string", prompt = "Enter the bind port (default: 6767)", default = "6767"}
