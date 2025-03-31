@@ -8,5 +8,5 @@ exclude = ["Cargo.toml"]
 
 [placeholders]
 bind_ip = { type = "string", prompt = "Enter the bind IP address (default: 127.0.0.1)", default= "127.0.0.1"}
-bind_port = { type = "number", prompt = "Enter the bind port (default: 6767)", default = 6767}
+bind_port = { type = "string", prompt = "Enter the bind port (default: 6767)", default = "6767"}
 use_dotenv = { type = "bool", prompt = "Do you want to use dotenv for environment variables?", default = true }
