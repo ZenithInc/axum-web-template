@@ -1,0 +1,10 @@
+[package]
+name = "axum-web-template"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.8.3" }
+tokio = { version = "1.44.1", features = ["full"] }
+
+dotenvy = "0.15.7"
