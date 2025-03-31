@@ -4,7 +4,6 @@ description = "An Axum web framework template"
 authors = ["Zenith Su <hello.hackign.icu@gmail.com"]
 
 rename = { "Cargo.toml.template" = "Cargo.toml" }
-exclude = ["Cargo.toml"]
 
 [placeholders]
 bind_ip = { type = "string", prompt = "Enter the bind IP address (default: 127.0.0.1)", default= "127.0.0.1"}
